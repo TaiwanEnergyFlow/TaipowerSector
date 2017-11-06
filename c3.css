@@ -30,7 +30,7 @@ body {
 
 .c3 path, .c3 line {
   fill: none;
-  stroke: white; }
+  stroke: darkgray; }
 
 .c3 text {
   -webkit-user-select: none;
