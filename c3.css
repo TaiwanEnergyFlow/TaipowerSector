@@ -49,10 +49,10 @@
 /*-- Point --*/
 .c3-circle._expanded_ {
   stroke-width: 5px;
-  stroke: white; }
+  stroke: #000; }
 
 .c3-selected-circle {
-  fill: white;
+  fill: gray;
   stroke-width: 5px; }
 
 /*-- Bar --*/
