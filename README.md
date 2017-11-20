@@ -6,3 +6,5 @@ https://taiwanenergyflow.github.io/TaipowerSector/EFscenario.html
 https://taiwanenergyflow.github.io/TaipowerSector/Industrial.html
 
 https://taiwanenergyflow.github.io/TaipowerSector/Ind.GDP.html
+
+https://taiwanenergyflow.github.io/TaipowerSector/Ind.peichart.html
