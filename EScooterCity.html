@@ -12,7 +12,7 @@
     <link href="c3.css" rel="stylesheet" type="text/css">
     <title> c3.js </title>
     <style>
-    #chart1 .c3-line-data2 {
+    #chart .c3-line-data2 {
         stroke-width: 5px;
     }
     body {
@@ -31,12 +31,12 @@
    
     
     <div style="text-align:center;background-color:#fbf564; opacity:0.8;" > 機車數(unit:萬量). </div>
-    <div id="chart1">
+    <div id="chart">
     </div>
     <script type="text/javascript">
    
     // # timeseries.js. http://c3js.org/samples/timeseries.html
-   var chart1 = c3.generate({
+   var chart = c3.generate({
         data: {
        
            
@@ -85,7 +85,7 @@
     })
    ;
     setTimeout(function () {
-    chart1.load({
+    chart.load({
         columns: [
             ['總計(電動機車登記數)',3.19,3.84,4.23,5.20,7.18,10.78]
           
