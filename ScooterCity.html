@@ -12,7 +12,7 @@
     <link href="c3.css" rel="stylesheet" type="text/css">
     <title> c3.js </title>
     <style>
-    #chart .c3-line-data2 {
+    #chart1 .c3-line-data2 {
         stroke-width: 5px;
     }
     body {
@@ -20,7 +20,15 @@
     }
     
     </style>
+    <style>
+    #chart2 .c3-line-data2 {
+        stroke-width: 5px;
+    }
+    body {
+        background-color: lightgreen;
+    }
     
+    </style>
 
 </head>
 
@@ -31,13 +39,9 @@
    
     
     <div style="text-align:center;background-color:#fbf564; opacity:0.8;" > 機車數(unit:萬量). </div>
-    <div align="center">
-        
-        <div id="chart1"></div>
-		<div id="chart2"></div>
-    </div>   
-    <div id="chart1">
-    </div>
+   
+    <div id="chart1"></div>
+    <div id="chart2"></div>
     <script type="text/javascript">
    
     // # timeseries.js. http://c3js.org/samples/timeseries.html
@@ -89,7 +93,7 @@
     })
    ;
     setTimeout(function () {
-    chart.load({
+    chart1.load({
         columns: [
             ['總計(機車新領牌數)',62.47,66.80,66.56,70.62,85.24,88.67]
           
@@ -146,7 +150,7 @@
     })
    ;
     setTimeout(function () {
-    chart.load({
+    chart2.load({
         columns: [
             ['總計(電動機車登記數)',3.19,3.84,4.23,5.20,7.18,10.78]
           
