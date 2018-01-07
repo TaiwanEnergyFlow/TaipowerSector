@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-2*width, initial-scale=1">
 
     <!-- 一定要使用 v.3.5.0 (v3) 的 d3.js 才有用 -->
     <script src="https://d3js.org/d3.v3.min.js"></script>
@@ -12,10 +12,10 @@
     <title> c3.js </title>
     <style>
     #chart .c3-line-data2 {
-        stroke-width: 15px;
+        stroke-width: 40px;
     }
     body {
-        background-color: lightyellow;
+        background-color: white;
     }
     
     </style>
@@ -72,7 +72,7 @@
             x: {
                 type: 'timeseries',
                 tick: {
-                    format: '%Y年-%m月'
+                    format: '%Y年 %m月'
                 }
             }
         }
