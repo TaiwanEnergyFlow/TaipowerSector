@@ -36,6 +36,9 @@
     <div id="chart"></div>
     
     <script type="text/javascript">
+     var margin = {top: 60, right: 40, bottom: 50, left: 60};
+        var w = 580 ; // 寬
+        var h = 300 ; // 高
    
     // # timeseries.js. http://c3js.org/samples/timeseries.html
    var chart = c3.generate({
@@ -79,7 +82,7 @@
             x: {
                 type: 'timeseries',
                 tick: {
-                    format: '%Y年'\n'%m月'
+                    format: '%Y年%m月'
                 }
             }
         }
