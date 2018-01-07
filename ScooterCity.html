@@ -25,16 +25,23 @@
 </head>
 
 <body>
+    
+  
     <h1 style="text-align:center">各縣市新領牌機車</h1>
    
     
     <div style="text-align:center;background-color:#fbf564; opacity:0.8;" > 機車數(unit:萬量). </div>
-    <div id="chart">
+    <div align="center">
+        
+        <div id="chart1"></div>
+		<div id="chart2"></div>
+    </div>   
+    <div id="chart1">
     </div>
     <script type="text/javascript">
    
     // # timeseries.js. http://c3js.org/samples/timeseries.html
-   var chart = c3.generate({
+   var chart1 = c3.generate({
         data: {
        
             x: 'x',
@@ -90,19 +97,7 @@
         });
     }, 12000)
         ;
-    </script>
     
-    
-    <script type="text/javascript">
- </body>
- <body>
- <h2 style="text-align:center">各縣市電動機車登記數</h1>
-   
-    
-    <div style="text-align:center;background-color:#fbf564; opacity:0.8;" > 機車數(unit:萬量). </div>
-    <div id="chart">
-    </div>        
-    // # timeseries.js. http://c3js.org/samples/timeseries.html
    var chart2 = c3.generate({
         data: {
        
